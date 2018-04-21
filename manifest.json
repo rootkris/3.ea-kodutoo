@@ -1,0 +1,14 @@
+{
+	"name": "Clock",
+	"version": "1.0",
+	"author": "Kristo Roots",
+	"description": "Simple Chrome extension, that displays the time each time a new tab is opened!",
+	"browser_action":{
+		"default_icon": "icon.png"
+	},
+	"chrome_url_overrides":{
+		"newtab": "popup.html"
+	},
+	"content_security_policy": "script-src 'self' 'sha256-Yfc9DUQjn++DUcodB8p6l6WYqlmxvqLyaYU1g3arnKY='",
+	"manifest_version": 2
+}
